@@ -21,7 +21,7 @@ public class TwilioClient {
 	    TwilioRestClient client = new TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN);
 	    // Build a filter for the MessageList
 	    List<NameValuePair> params = new ArrayList<NameValuePair>();
-	    params.add(new BasicNameValuePair("Body", "Amit, I love you :)"));
+	    params.add(new BasicNameValuePair("Body", "Amit, i have checked-in the code..."));
 	    //params.add(new BasicNameValuePair("To", "+14085719076"));
 	    params.add(new BasicNameValuePair("To", "+14085719076"));
 	    params.add(new BasicNameValuePair("From", "+16509008927"));
